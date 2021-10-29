@@ -1,7 +1,8 @@
 body {
   position: relative;
-  width: 1440px;
-  height: 1080px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
 
   background: #1b2f43;
 }
@@ -368,7 +369,7 @@ a:hover {
   width: 891px;
   height: 867px;
   left: 273px;
-  top: 120px;
+  top: 10px;
 }
 
 .perhatian {
@@ -377,7 +378,7 @@ a:hover {
   width: 303px;
   height: 55px;
   left: 635px;
-  top: 320px;
+  top: 200px;
 
   font-family: Rounded Mplus 1c;
   font-style: normal;
@@ -435,7 +436,7 @@ button {
   width: 146px;
   height: 3px;
   left: 646px;
-  top: 384px;
+  top: 254px;
 
   background: #fac521;
 }
@@ -445,7 +446,7 @@ button {
   width: 278px;
   height: 54px;
   left: 582px;
-  top: 500px;
+  top: 390px;
 
   font-family: Rounded Mplus 1c;
   font-style: normal;
@@ -490,7 +491,7 @@ button {
   width: 187px;
   height: 41px;
   left: 618px;
-  top: 658px;
+  top: 558px;
 }
 
 .kembali {
@@ -504,7 +505,7 @@ button {
   width: 789px;
   height: 319px;
   left: 324px;
-  top: 320px;
+  top: 180px;
   border-radius: 50%;
   border: 3px solid #d0a827;
   box-sizing: border-box;
@@ -515,7 +516,7 @@ button {
   width: 789px;
   height: 319px;
   left: 324px;
-  top: 441px;
+  top: 360px;
   border-radius: 50%;
   border: 3px solid #ffffff;
   box-sizing: border-box;
