@@ -30,6 +30,74 @@ body {
   top: 83px;
 }
 
+.robot {
+  position: relative;
+  left: 60px;
+  top: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.yes {
+  position: relative;
+  left: 20px;
+  top: -20px;
+  width: 20px;
+  height: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  display: flex;
+  align-items: center;
+
+  outline: white;
+}
+
+.capt {
+  position: relative;
+  left: 170px;
+  top: -56px;
+  width: 50px;
+  height: 50px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  display: flex;
+  align-items: center;
+
+  outline: white;
+}
+
+.konfr {
+  position: absolute;
+  width: 230px;
+  height: 51px;
+  left: 605px;
+  top: 558px;
+
+  background: #fafafa;
+  border: 1px solid #d6d6d6;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
 .judul {
   position: absolute;
   left: 630px;
