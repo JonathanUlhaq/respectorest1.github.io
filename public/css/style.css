@@ -1,0 +1,199 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 1080px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  background: #1b2f43;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 2;
+  }
+}
+.judul1 {
+  position: absolute;
+  width: 299px;
+  height: 66px;
+  left: 113px;
+  top: 103px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 74px;
+
+  color: #ffffff;
+}
+
+.judul2 {
+  position: absolute;
+  width: 299px;
+  height: 66px;
+  left: 115px;
+  top: 152px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 74px;
+
+  color: #fac521;
+}
+
+.judulU {
+  position: absolute;
+  width: 568px;
+  height: 191px;
+  left: 115px;
+  top: 311px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 119px;
+  line-height: 177px;
+
+  color: #fac521;
+}
+
+.sub {
+  position: absolute;
+  width: 706px;
+  height: 191px;
+  left: 119px;
+  top: 450px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 51px;
+  line-height: 76px;
+
+  color: #ffffff;
+}
+
+.sarana {
+  /* Sarana pemilihan umum berbasis web online */
+
+  position: absolute;
+  width: 575px;
+  height: 191px;
+  left: 119px;
+  top: 534px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 43px;
+  line-height: 64px;
+
+  color: #ffffff;
+}
+
+.buton {
+  position: absolute;
+  width: 282px;
+  height: 59px;
+  left: 113px;
+  top: 734px;
+}
+
+.btn-lg {
+  background: #fac521;
+  border-radius: 30px;
+  width: 190px;
+  height: 49px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: black;
+  font-size: 25px;
+  line-height: 30px;
+  transition: 0.3s;
+}
+
+.btn-lg1 {
+  background: white;
+  border-radius: 30px;
+  width: 190px;
+  height: 49px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+  line-height: 30px;
+  transition: 0.3s;
+}
+
+.buton1 {
+  position: absolute;
+  width: 282px;
+  height: 59px;
+  left: 350px;
+  top: 734px;
+}
+.gambar {
+  position: absolute;
+  width: 610px;
+  height: 549.6px;
+  left: 750px;
+  top: 284px;
+}
+
+img.gambar1 {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+img.gambar1 {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+
+img.gambar {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+img.gambar {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.gambar2 {
+  position: absolute;
+  width: 806px;
+  height: 1150px;
+  left: 620px;
+  top: -23px;
+}

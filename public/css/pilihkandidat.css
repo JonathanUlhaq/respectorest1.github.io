@@ -1,0 +1,269 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.juduls {
+  /* KANDIDAT */
+
+  position: absolute;
+  width: 233px;
+  height: 71px;
+  left: 583px;
+  top: 1102px;
+
+  font-family: Rozha One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 71px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.kandidatpert {
+  position: absolute;
+  width: 432px;
+  height: 350px;
+  left: 139px;
+  top: 1155px;
+}
+
+.kandidatked {
+  position: absolute;
+  width: 402px;
+  height: 350px;
+  left: 939px;
+  top: 1155px;
+}
+
+.bunderan2 {
+  position: absolute;
+  width: 410px;
+  height: 200px;
+  left: 910px;
+  top: 1200px;
+  border-radius: 50%;
+
+  border: 3px solid #fac521;
+  box-sizing: border-box;
+}
+
+.bunderan3 {
+  position: absolute;
+  width: 410px;
+  height: 200px;
+  left: 910px;
+  top: 1260px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.bunderan {
+  position: absolute;
+  width: 410px;
+  height: 200px;
+  left: 110px;
+  top: 1200px;
+  border-radius: 50%;
+
+  border: 3px solid #fac521;
+  box-sizing: border-box;
+}
+
+.bunderan1 {
+  position: absolute;
+  width: 410px;
+  height: 200px;
+  left: 110px;
+  top: 1260px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.bunderan1 {
+  -webkit-animation: mover 3s infinite alternate;
+  animation: mover 3s infinite alternate;
+}
+.bunderan1 {
+  -webkit-animation: mover 3s infinite alternate;
+  animation: mover 3s infinite alternate;
+}
+
+.bunderan3 {
+  -webkit-animation: mover 3s infinite alternate;
+  animation: mover 3s infinite alternate;
+}
+.bunderan3 {
+  -webkit-animation: mover 3s infinite alternate;
+  animation: mover 3s infinite alternate;
+}
+
+.kandidat1 {
+  position: absolute;
+  transition: 1s;
+  top: 0px;
+}
+.kandidat1:hover {
+  top: -50px;
+  transition: 1s;
+}
+
+.bunderan2 {
+  -webkit-animation: mover1 3s infinite alternate;
+  animation: mover1 3s infinite alternate;
+}
+.bunderan2 {
+  -webkit-animation: mover1 3s infinite alternate;
+  animation: mover1 3s infinite alternate;
+}
+
+.bunderan {
+  -webkit-animation: mover1 3s infinite alternate;
+  animation: mover1 3s infinite alternate;
+}
+.bunderan {
+  -webkit-animation: mover1 3s infinite alternate;
+  animation: mover1 3s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-90px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-90px);
+  }
+}
+
+@-webkit-keyframes mover1 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(90px);
+  }
+}
+@keyframes mover1 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(90px);
+  }
+}
+.garis1 {
+  position: absolute;
+  width: 180px;
+  height: -10px;
+  left: 80px;
+  top: 380px;
+  opacity: 80%;
+  border: 3px solid #fac521;
+  transition: 1s;
+}
+
+.garis1:hover {
+  left: -100px;
+  transition: 1s;
+}
+.namaout1 {
+  position: absolute;
+  width: 550px;
+  left: -40px;
+  top: 420px;
+
+  font-family: Rozha One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 102px;
+  display: flex;
+  align-items: center;
+  color: none;
+  -webkit-text-fill-color: #1b2f43;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(250, 197, 33, 0.35);
+  transition: 1s;
+}
+
+.md {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 90px;
+  top: 560px;
+  font-family: Rozha One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 25px;
+
+  align-items: center;
+  color: #000000;
+  background: #fac521;
+  border-radius: 30px;
+}
+.fakultas {
+  position: absolute;
+  width: 350px;
+  left: 10px;
+  top: 500px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.nama1 {
+  position: absolute;
+  width: 500px;
+  left: -40px;
+  top: 400px;
+
+  font-family: Rozha One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 102px;
+  display: flex;
+  align-items: center;
+
+  color: #fac521;
+}
+.calon1 {
+  position: absolute;
+
+  left: 90px;
+  top: 360px;
+
+  font-family: Rozha One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 71px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}

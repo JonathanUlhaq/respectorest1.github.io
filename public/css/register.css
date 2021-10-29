@@ -1,0 +1,509 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 1080px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  background: #1b2f43;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 2;
+  }
+}
+
+.container {
+  position: relative;
+  width: 496px;
+  height: 647px;
+  left: 472px;
+  top: 83px;
+}
+
+.judul {
+  position: absolute;
+  left: 630px;
+  right: 45.97%;
+  top: 11.35%;
+  bottom: 85.56%;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: BOLD;
+  font-weight: 800;
+  font-size: 37px;
+  line-height: 55px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.judul2 {
+  position: absolute;
+  left: 680px;
+  right: 48.33%;
+  top: 180px;
+  bottom: 82.5%;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 37px;
+
+  color: #fac521;
+}
+.satu {
+  position: absolute;
+  left: 470px;
+  right: 59.58%;
+  top: -50px;
+  bottom: 75.28%;
+  height: 40px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 37px;
+
+  color: #fac521;
+}
+.form-label {
+  position: absolute;
+  left: 35.62%;
+  right: 59.58%;
+  top: 300px;
+  bottom: 75.28%;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 37px;
+
+  color: #fac521;
+}
+
+.form-control:focus {
+  background: #477db4;
+  color: white;
+}
+
+.form-control {
+  position: absolute;
+  width: 400px;
+  left: 35.62%;
+  right: 35.83%;
+  top: 340px;
+  bottom: 70.46%;
+  color: white;
+  background: #28435c;
+  transition: 0.5s;
+}
+
+.dua {
+  position: absolute;
+  left: 470px;
+  right: 59.58%;
+  top: 50px;
+  bottom: 75.28%;
+  height: 40px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 37px;
+
+  color: #fac521;
+}
+
+.tiga {
+  position: absolute;
+  left: 470px;
+  right: 59.58%;
+  top: 150px;
+  bottom: 75.28%;
+  height: 40px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 37px;
+
+  color: #fac521;
+}
+
+.ingat {
+  position: absolute;
+  width: 138px;
+  height: 37px;
+  left: 513px;
+  top: 440px;
+  color: white;
+}
+
+.form-check-input:focus {
+  background: #28435c;
+}
+
+.md {
+  width: 187px;
+  height: 39px;
+  background: #ffffff;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  border-radius: 30px;
+
+  color: black;
+}
+
+.buton {
+  /* Tombol masuk */
+
+  position: absolute;
+  width: 187px;
+  height: 41px;
+
+  left: 770px;
+  top: 660px;
+}
+
+.akon {
+  /* Tombol masuk */
+
+  position: absolute;
+  width: 187px;
+  height: 41px;
+  left: 510px;
+  top: 670px;
+  font-size: 15px;
+  color: #fac521;
+}
+
+.akon:hover {
+  color: #28435c;
+}
+
+.gambar {
+  /* Group 9 */
+
+  position: absolute;
+  width: 919px;
+  height: 867px;
+  left: 273px;
+  top: 15px;
+}
+
+footer {
+  position: relative;
+  top: 900px;
+  width: 1520px;
+  height: 200px;
+  right: 0px;
+  bottom: 2px;
+
+  background: #12273c;
+}
+
+.voting {
+  position: absolute;
+  width: 133px;
+  height: 42px;
+  left: 144px;
+  top: 20px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+
+  color: #fac521;
+}
+.kontak {
+  position: absolute;
+  width: 200px;
+  height: 42px;
+  left: 650px;
+  top: 20px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+
+  color: #fac521;
+}
+
+.web {
+  position: absolute;
+  width: 182px;
+  height: 42px;
+  left: 1324px;
+  top: 20px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+
+  color: #fac521;
+}
+
+.isi {
+  position: absolute;
+  width: 312px;
+  height: 88px;
+  left: 84px;
+  top: 75px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.icon {
+  position: absolute;
+  width: 303px;
+  height: 55px;
+  left: 626px;
+  top: 90px;
+  text-decoration: none;
+}
+
+.cap {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  left: 573px;
+  top: 560px;
+}
+
+.akon:hover {
+  color: #456788;
+}
+
+footer {
+  position: relative;
+  top: 900px;
+  width: 1520px;
+  height: 200px;
+  right: 0px;
+  bottom: 2px;
+
+  background: #12273c;
+}
+
+.voting {
+  position: absolute;
+  width: 133px;
+  height: 42px;
+  left: 144px;
+  top: 20px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+
+  color: #fac521;
+}
+.kontak {
+  position: absolute;
+  width: 200px;
+  height: 42px;
+  left: 650px;
+  top: 20px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+
+  color: #fac521;
+}
+
+.web {
+  position: absolute;
+  width: 182px;
+  height: 42px;
+  left: 1324px;
+  top: 50px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+
+  color: #fac521;
+}
+.web1 {
+  position: absolute;
+  width: 182px;
+  height: 42px;
+  left: 1324px;
+  top: 20px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+
+  color: white;
+}
+
+.icon,
+tr,
+a {
+  font-size: 40px;
+  padding-left: 10px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.icon,
+tr,
+a:hover {
+  color: #fac521;
+}
+
+.isi {
+  position: absolute;
+  width: 312px;
+  height: 88px;
+  left: 84px;
+  top: 75px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.icon {
+  position: absolute;
+  width: 303px;
+  height: 55px;
+  left: 596px;
+  top: 80px;
+  text-decoration: none;
+}
+
+.isi4 {
+  position: absolute;
+  width: 115px;
+  height: 28px;
+  left: 1329px;
+  bottom: 50px;
+
+  font-family: Rounded Mplus 1c;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+
+.bunderan {
+  position: absolute;
+  width: 649px;
+  height: 319px;
+  left: 394px;
+  top: 181px;
+  border-radius: 50%;
+  border: 3px solid #d0a827;
+  box-sizing: border-box;
+}
+
+.bunderan1 {
+  position: absolute;
+  width: 649px;
+  height: 319px;
+  left: 394px;
+  top: 341px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.bunderan1 {
+  -webkit-animation: mover 6s infinite alternate;
+  animation: mover 6s infinite alternate;
+}
+.bunderan1 {
+  -webkit-animation: mover 6s infinite alternate;
+  animation: mover 6s infinite alternate;
+}
+
+.bunderan {
+  -webkit-animation: mover1 6s infinite alternate;
+  animation: mover1 6s infinite alternate;
+}
+.bunderan {
+  -webkit-animation: mover1 6s infinite alternate;
+  animation: mover1 6s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-180px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-180px);
+  }
+}
+
+@-webkit-keyframes mover1 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(180px);
+  }
+}
+@keyframes mover1 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(180px);
+  }
+}

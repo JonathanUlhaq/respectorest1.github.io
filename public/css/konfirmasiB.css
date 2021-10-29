@@ -1,0 +1,574 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 1080px;
+
+  background: #1b2f43;
+}
+
+header {
+  width: 1520px;
+  height: 130px;
+  left: 0px;
+  top: 0px;
+
+  background: #12273c;
+}
+
+.judul {
+  position: absolute;
+  width: 412px;
+  height: 105px;
+  left: 54px;
+  top: 189px;
+
+  font-family: Rozha One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 65px;
+  line-height: 92px;
+  display: flex;
+  align-items: center;
+
+  color: #fac521;
+
+  text-shadow: 0px 100px 80px rgba(255, 228, 0, 0.07),
+    0px 51.5228px 33.4221px rgba(255, 228, 0, 0.111092),
+    0px 31.8133px 17.869px rgba(255, 228, 0, 0.0989861),
+    0px 23.4052px 10.0172px rgba(255, 228, 0, 0.0788586),
+    0px 18.1954px 5.32008px rgba(255, 228, 0, 0.0547625),
+    0px 11.4608px 2.21381px rgba(255, 228, 0, 0.028222);
+}
+
+footer {
+  position: relative;
+  top: 900px;
+  width: 1520px;
+  height: 200px;
+  right: 0px;
+  bottom: 2px;
+
+  background: #12273c;
+}
+
+.voting {
+  position: absolute;
+  width: 133px;
+  height: 42px;
+  left: 144px;
+  top: 20px;
+  transition: 0.3s;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+  color: #fac521;
+}
+
+.web2:hover {
+  color: #fac521;
+}
+
+.web3:hover {
+  color: white;
+}
+
+.icon,
+tr,
+a {
+  font-size: 40px;
+  padding-left: 10px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.icon,
+tr,
+a:hover {
+  color: #fac521;
+}
+
+.kontak {
+  position: absolute;
+  width: 200px;
+  height: 42px;
+  left: 650px;
+  top: 20px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+
+  color: #fac521;
+}
+
+.web {
+  position: absolute;
+  width: 182px;
+  height: 42px;
+  left: 1324px;
+  top: 55px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+
+  color: #fac521;
+}
+
+.web1 {
+  position: absolute;
+  width: 182px;
+  height: 42px;
+  left: 1324px;
+  top: 20px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+
+  color: white;
+}
+
+.isi {
+  position: absolute;
+  width: 312px;
+  height: 88px;
+  left: 84px;
+  top: 75px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.icon {
+  position: absolute;
+  width: 303px;
+  height: 55px;
+  left: 596px;
+  top: 80px;
+  text-decoration: none;
+}
+
+.cap {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  left: 573px;
+  top: 560px;
+}
+
+.akon:hover {
+  color: #456788;
+}
+
+.web2 {
+  position: absolute;
+  width: 182px;
+  height: 66px;
+  left: 91px;
+  top: 32px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 55px;
+
+  color: #ffffff;
+}
+
+.web3 {
+  position: absolute;
+  width: 182px;
+  height: 66px;
+  left: 91px;
+  top: 70px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 55px;
+
+  color: #fac521;
+}
+
+.home {
+  color: white;
+  text-decoration: none;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 46px;
+
+  transition: 0.3s;
+}
+
+.home:hover {
+  color: #456788;
+}
+
+.pilih {
+  color: white;
+  text-decoration: none;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 48px;
+  padding-left: 150px;
+
+  transition: 0.3s;
+}
+
+.pilih:hover {
+  color: #456788;
+}
+
+.hasil {
+  color: white;
+  text-decoration: none;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 48px;
+  padding-left: 150px;
+
+  transition: 0.3s;
+}
+
+.hasil:hover {
+  color: #456788;
+}
+
+.logout {
+  color: white;
+  text-decoration: none;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 48px;
+  padding-left: 150px;
+
+  transition: 0.3s;
+}
+
+.logout:hover {
+  color: #456788;
+}
+.nav {
+  position: absolute;
+  width: 903px;
+  height: 33px;
+  left: 620px;
+  top: 61px;
+}
+
+.rectangle {
+  position: absolute;
+  width: 1069px;
+  height: 8px;
+  left: 132px;
+  top: 550px;
+
+  background: #fac521;
+  border-radius: 30px;
+}
+
+.trunk {
+  position: absolute;
+  width: 158px;
+  height: 10px;
+  left: 110px;
+  top: 470px;
+
+  background: #fac521;
+  border-radius: 30px;
+  transform: matrix(0, -1, -1, 0, 0, 0);
+}
+
+.bunder1 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 155px;
+  top: 376px;
+  border-radius: 50%;
+
+  background: #fac521;
+}
+
+.isi1 {
+  position: absolute;
+  width: 66px;
+  height: 81px;
+  left: 21px;
+  top: -5px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 79px;
+
+  color: #000000;
+}
+.isi11 {
+  position: absolute;
+  width: 66px;
+  height: 81px;
+  left: 51px;
+  top: -5px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 79px;
+
+  color: #000000;
+}
+
+.isi4 {
+  position: absolute;
+  width: 115px;
+  height: 28px;
+  left: 1339px;
+  bottom: 50px;
+
+  font-family: Rounded Mplus 1c;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+
+.kotak {
+  position: absolute;
+  width: 891px;
+  height: 867px;
+  left: 273px;
+  top: 120px;
+}
+
+.perhatian {
+  /* PERHATIAN */
+  position: absolute;
+  width: 303px;
+  height: 55px;
+  left: 635px;
+  top: 320px;
+
+  font-family: Rounded Mplus 1c;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 55px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.grafik {
+  position: absolute;
+  width: 313px;
+  height: 230px;
+  left: 623px;
+  top: 470px;
+}
+
+.kandidatt {
+  position: absolute;
+  width: 303px;
+  height: 55px;
+  left: 670px;
+  top: 380px;
+
+  font-family: Rounded Mplus 1c;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 37px;
+
+  color: #fac521;
+}
+
+button {
+  position: absolute;
+  width: 187px;
+  height: 39px;
+  left: 628px;
+  top: 760px;
+
+  background: #fac521;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  border-radius: 30px;
+}
+
+.garis {
+  position: absolute;
+  width: 146px;
+  height: 3px;
+  left: 646px;
+  top: 384px;
+
+  background: #fac521;
+}
+
+.tulisan {
+  position: absolute;
+  width: 278px;
+  height: 54px;
+  left: 582px;
+  top: 500px;
+
+  font-family: Rounded Mplus 1c;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.md:hover {
+  background: #12273c;
+  color: white;
+}
+
+.md {
+  width: 187px;
+  height: 39px;
+  background: #fac521;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  border-radius: 30px;
+
+  font-family: Rounded Mplus 1c;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+.buton {
+  /* Tombol Login */
+
+  position: absolute;
+  width: 187px;
+  height: 41px;
+  left: 618px;
+  top: 658px;
+}
+
+.kembali {
+  position: absolute;
+  left: 430px;
+  top: 350px;
+}
+
+.bunderan {
+  position: absolute;
+  width: 789px;
+  height: 319px;
+  left: 324px;
+  top: 320px;
+  border-radius: 50%;
+  border: 3px solid #d0a827;
+  box-sizing: border-box;
+}
+
+.bunderan1 {
+  position: absolute;
+  width: 789px;
+  height: 319px;
+  left: 324px;
+  top: 441px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.bunderan1 {
+  -webkit-animation: mover 3s infinite alternate;
+  animation: mover 3s infinite alternate;
+}
+.bunderan1 {
+  -webkit-animation: mover 3s infinite alternate;
+  animation: mover 3s infinite alternate;
+}
+
+.bunderan {
+  -webkit-animation: mover1 3s infinite alternate;
+  animation: mover1 3s infinite alternate;
+}
+.bunderan {
+  -webkit-animation: mover1 3s infinite alternate;
+  animation: mover1 3s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-150px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-150px);
+  }
+}
+
+@-webkit-keyframes mover1 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(150px);
+  }
+}
+@keyframes mover1 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(150px);
+  }
+}

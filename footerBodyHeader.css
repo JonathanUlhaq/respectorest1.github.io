@@ -1,0 +1,367 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 1080px;
+
+  background: #1b2f43;
+}
+
+header {
+  position: sticky;
+  overflow: hidden;
+  width: 1520px;
+  height: 150px;
+  left: 0px;
+  top: 0px;
+
+  background: #12273c;
+}
+
+.judul {
+  position: absolute;
+  width: 412px;
+  height: 105px;
+  left: 54px;
+  top: 189px;
+
+  font-family: Rozha One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 65px;
+  line-height: 92px;
+  display: flex;
+  align-items: center;
+
+  color: #fac521;
+
+  text-shadow: 0px 100px 80px rgba(255, 228, 0, 0.07),
+    0px 51.5228px 33.4221px rgba(255, 228, 0, 0.111092),
+    0px 31.8133px 17.869px rgba(255, 228, 0, 0.0989861),
+    0px 23.4052px 10.0172px rgba(255, 228, 0, 0.0788586),
+    0px 18.1954px 5.32008px rgba(255, 228, 0, 0.0547625),
+    0px 11.4608px 2.21381px rgba(255, 228, 0, 0.028222);
+}
+
+footer {
+  position: relative;
+  top: 900px;
+  width: 1520px;
+  height: 200px;
+  right: 0px;
+  bottom: 2px;
+
+  background: #12273c;
+}
+
+.voting {
+  position: absolute;
+  width: 133px;
+  height: 42px;
+  left: 144px;
+  top: 20px;
+  transition: 0.3s;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+  color: #fac521;
+}
+
+.web2:hover {
+  color: #fac521;
+}
+
+.web3:hover {
+  color: white;
+}
+
+.icon,
+tr,
+a {
+  font-size: 40px;
+  padding-left: 10px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.icon,
+tr,
+a:hover {
+  color: #fac521;
+}
+
+.kontak {
+  position: absolute;
+  width: 200px;
+  height: 42px;
+  left: 650px;
+  top: 20px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+
+  color: #fac521;
+}
+
+.web {
+  position: absolute;
+  width: 182px;
+  height: 42px;
+  left: 1324px;
+  top: 55px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+
+  color: #fac521;
+}
+
+.web1 {
+  position: absolute;
+  width: 182px;
+  height: 42px;
+  left: 1324px;
+  top: 20px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+
+  color: white;
+}
+
+.isi {
+  position: absolute;
+  width: 312px;
+  height: 88px;
+  left: 84px;
+  top: 75px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.icon {
+  position: absolute;
+  width: 303px;
+  height: 55px;
+  left: 596px;
+  top: 80px;
+  text-decoration: none;
+}
+
+.cap {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  left: 573px;
+  top: 560px;
+}
+
+.akon:hover {
+  color: #456788;
+}
+
+.web2 {
+  position: absolute;
+  width: 182px;
+  height: 66px;
+  left: 91px;
+  top: 32px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 55px;
+
+  color: #ffffff;
+}
+
+.web3 {
+  position: absolute;
+  width: 182px;
+  height: 66px;
+  left: 91px;
+  top: 70px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 55px;
+
+  color: #fac521;
+}
+
+.home {
+  color: white;
+  text-decoration: none;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 46px;
+
+  transition: 0.3s;
+}
+
+.home:hover {
+  color: #456788;
+}
+
+.pilih {
+  color: white;
+  text-decoration: none;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 46px;
+  padding-left: 100px;
+
+  transition: 0.3s;
+}
+
+.pilih:hover {
+  color: #456788;
+}
+
+.hasil {
+  color: white;
+  text-decoration: none;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 46px;
+  padding-left: 100px;
+
+  transition: 0.3s;
+}
+
+.hasil:hover {
+  color: #456788;
+}
+
+.logout {
+  color: white;
+  text-decoration: none;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 46px;
+  padding-left: 100px;
+
+  transition: 0.3s;
+}
+
+.logout:hover {
+  color: #456788;
+}
+
+.nav {
+  position: absolute;
+  width: 903px;
+  height: 33px;
+  left: 620px;
+  top: 61px;
+}
+
+.rectangle {
+  position: absolute;
+  width: 1069px;
+  height: 8px;
+  left: 132px;
+  top: 550px;
+
+  background: #fac521;
+  border-radius: 30px;
+}
+
+.trunk {
+  position: absolute;
+  width: 158px;
+  height: 10px;
+  left: 110px;
+  top: 470px;
+
+  background: #fac521;
+  border-radius: 30px;
+  transform: matrix(0, -1, -1, 0, 0, 0);
+}
+
+.bunder1 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 155px;
+  top: 376px;
+  border-radius: 50%;
+
+  background: #fac521;
+}
+
+.isi1 {
+  position: absolute;
+  width: 66px;
+  height: 81px;
+  left: 21px;
+  top: -5px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 79px;
+
+  color: #000000;
+}
+.isi11 {
+  position: absolute;
+  width: 66px;
+  height: 81px;
+  left: 51px;
+  top: -5px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 79px;
+
+  color: #000000;
+}
+
+.isi4 {
+  position: absolute;
+  width: 115px;
+  height: 28px;
+  left: 1339px;
+  bottom: 50px;
+
+  font-family: Rounded Mplus 1c;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
