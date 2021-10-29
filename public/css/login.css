@@ -193,14 +193,13 @@ body {
 footer {
   position: relative;
   top: 900px;
-  width: 1520px;
+  width: 220px;
   height: 200px;
   right: 0px;
   bottom: 2px;
 
   background: #12273c;
 }
-
 .voting {
   position: absolute;
   width: 133px;
@@ -517,9 +516,7 @@ a:hover {
 
 .isis {
   position: relative;
-  left: 50px;
-
-  background: #12273c;
+  left: 0px;
 }
 
 .bunderan {
